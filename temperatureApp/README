@@ -1,3 +1,4 @@
 We use this application to display the temperature in the production hall.
 We use ELA INNOVATION sensors for this purpose, which communicate via low energy Bluetooth with the CASSIA X2000.
 Then, the data is sent via an MQTT broker to Ignition.
+Cassia always publishes a single topic, alternating between multiple sensors. That’s why I wrote a script that assigns the data to the appropriate tags.
