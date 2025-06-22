@@ -1,0 +1,3 @@
+We use this application to display the temperature in the production hall.
+We use ELA INNOVATION sensors for this purpose, which communicate via low energy Bluetooth with the CASSIA X2000.
+Then, the data is sent via an MQTT broker to Ignition.
