@@ -1,0 +1,4 @@
+Ignition subscribes to data from the MQTT broker.
+Meter readings are saved to the database every 15 minutes.
+Ignition Perspective displays consumption data: 15-minute, shift-based, daily, and monthly.
+The entire system is scalable, making it easy to add new meters.
