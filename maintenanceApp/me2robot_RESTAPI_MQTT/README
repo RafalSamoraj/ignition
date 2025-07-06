@@ -1,0 +1,4 @@
+The Mitsubishi Me2Robot application uses AI and is designed to monitor the condition of robots. Its algorithms assess robot wear in order to schedule maintenance in advance.
+I connected Me2Robot to the SCADA system to have a single, unified platform for alerts and notifications.
+Using a Python script, I retrieve data from Me2Robot via its REST API and then send it via MQTT to Ignition.
+Please be understanding — I started the project before I found out that Ignition has a native REST API :)
